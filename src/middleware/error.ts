@@ -3,8 +3,6 @@ import { ZodError } from "zod";
 import mongoose from "mongoose";
 import { isDev } from "@rag/config/env.js";
 import { childLogger } from "@rag/lib/logger.js";
-import { unknown } from "zod/v4";
-// import mongoose from "mongoose";
 
 const log = childLogger("http");
 
